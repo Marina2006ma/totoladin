@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Crocodille Project</title>
+    <link rel="shortcut icon" href="img/logo titulo.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+  <header>
+    <div class="margin-sup">
+      <a href="index.html"><img id="logo-sup" src="img/logo.png"></a>
+  
+          <ul class="menu">
+            <li><a href="index.html">PÁGINA INICIAL</a></li>
+              <li><a href="project.html">SOBRE</a></li>
+              <li><a href="equipe.html">EQUIPE</a></li>
+          </ul>
+  
+    </div>
+  </header>
+  
+
+<br> <br>
+<div class="container">
+ <div class="container2">
+  <div class="nome"> Grafico de mapas </div>
+  br
+  <div id="mapinha"></div>
+  
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="container2">
+   <div class="nome"> Grafico de Pizza </div>
+   br
+   <div id="pizza"></div>
+
+   </div>
+ </div>
+ <br>
+
+ <div class="container_">
+ <button id="btnObterDados" type="button" onclick="carregarDados();">
+  Obter Dados
+</button>
+<br>
+ <div id="div-erro"></div>
+ <div id="dados">
+  <div class="nomeTabela"> Tabela </div>
+  <br>
+  <table id="tabelaDados">
+    <thead>
+      <tr>
+         <th> Sigla </th>
+         <th> Estado </th>
+         <th> Casos </th>
+         <th> Mortes </th>
+         <th> Suspeitas </th>
+         <th> Nulos </th>
+
+        </tr>
+    </thead>
+    <tbody id="linhas">
+    </tbody>
+  </table>
+</div>
+ </div>
+<br><br><br>
+
+
+
+<div class="rodape">
+      <h1>Desenvolvido por:</h1>
+      <a href="https://instagram.com/jpsantos_2806?igshid=YmMyMTA2M2Y="><h2>João Pedro Secolim </h2></a>
+      <a href="https://www.instagram.com/du_chimenas/" ><h2>Eduardo Chimenas</h2></a>
+      <a href="https://instagram.com/joaoalberto_martins?igshid=YmMyMTA2M2Y=" ><h2>Joâo Alberto Martins</h2></a>
+      <a href="https://instagram.com/onlyph1?igshid=YmMyMTA2M2Y=" ><h2>Pedro Henrique Almeida</h2></a>
+      <a href="https://instagram.com/marina_11_ma?igshid=YmMyMTA2M2Y=" ><h2>Marina Porfirio</h2></a>
+      
+</div>
+ 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src='jquery.js'></script>
+
+</body>
+</html>
